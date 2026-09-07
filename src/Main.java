@@ -45,13 +45,14 @@ public class Main {
                     System.out.println("---");
                     System.out.print("Digite o ID do usuário para vincular ao vídeo: ");
                     int idUsuarioVideo = scanner.nextInt();
+                    scanner.nextLine();
                     Usuario usuarioVideo = plataforma.buscarUsuarioPorId(idUsuarioVideo);
                     if (usuarioVideo == null) {
                         System.out.println("Usuário não encontrado. Vídeo não cadastrado.");
                         break;
                     }
                     System.out.print("Digite o título do vídeo: ");
-                    String tituloVideo = scanner.next();
+                    String tituloVideo = scanner.nextLine();
                     System.out.print("Digite a duração do vídeo em minutos: ");
                     int duracaoVideo = scanner.nextInt();
                     Video video = new Video(idUsuarioVideo, tituloVideo, duracaoVideo);

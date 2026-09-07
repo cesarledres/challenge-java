@@ -80,7 +80,7 @@ public class Usuario {
 		System.out.println("Nome: " + nome);
 		System.out.println("Email: " + email);
 		System.out.println("Pontos: " + pontos);
-		System.out.println("br.com.suntentgame.model.Ranking: " + (ranking > 0 ? ranking : "não definido"));
+		System.out.println("Ranking: " + (ranking > 0 ? ranking : "não definido"));
 		System.out.println("Acesso à recompensa: " + (acessoRecompensa ? "sim" : "não"));
 
 	}

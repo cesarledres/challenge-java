@@ -37,7 +37,7 @@ public class Ranking {
 		atualizarRanking();
 
 		int limite = Math.min(5, usuarios.size());
-		System.out.println("Top " + limite + " do br.com.suntentgame.model.Ranking:");
+		System.out.println("Top " + limite + " do Ranking:");
 		for (int i = 0; i < limite; i++) {
 			Usuario u = usuarios.get(i);
 			System.out.println((i + 1) + " - " + u.getNome() + " - " + u.getPontos() + " pontos");
