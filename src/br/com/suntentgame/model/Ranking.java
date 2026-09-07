@@ -1,6 +1,5 @@
 package br.com.suntentgame.model;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
@@ -19,12 +18,9 @@ public class Ranking {
 	//metodos
 
 	public void atualizarRanking() {
-		Collections.sort(
-				usuarios,
-				Comparator.comparingInt(
-						Usuario::getPontos
-				).reversed()
-		);
+		usuarios.sort(Comparator.comparingInt(
+                Usuario::getPontos
+        ).reversed());
 
 		for (int i = 0; i < usuarios.size(); i++) {
 			Usuario usuario = usuarios.get(i);
