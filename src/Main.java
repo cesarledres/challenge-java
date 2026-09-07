@@ -1,4 +1,7 @@
 import br.com.suntentgame.model.*;
+import br.com.suntentgame.service.BotValidacao;
+import br.com.suntentgame.service.Plataforma;
+import br.com.suntentgame.service.Ranking;
 
 import java.util.Scanner;
 

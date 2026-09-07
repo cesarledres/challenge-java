@@ -1,4 +1,6 @@
-package br.com.suntentgame.model;
+package br.com.suntentgame.service;
+
+import br.com.suntentgame.model.Usuario;
 
 import java.util.Comparator;
 import java.util.List;

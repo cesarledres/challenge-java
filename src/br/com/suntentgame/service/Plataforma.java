@@ -1,4 +1,7 @@
-package br.com.suntentgame.model;
+package br.com.suntentgame.service;
+
+import br.com.suntentgame.model.Usuario;
+import br.com.suntentgame.model.Video;
 
 import java.util.ArrayList;
 import java.util.List;
