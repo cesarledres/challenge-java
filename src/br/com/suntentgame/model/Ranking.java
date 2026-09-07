@@ -4,18 +4,11 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Ranking {
-
-	//atributos
-
 	private List<Usuario> usuarios;
-
-	//construtor
 
 	public Ranking(List<Usuario> usuarios) {
 		this.usuarios = usuarios;
 	}
-
-	//metodos
 
 	public void atualizarRanking() {
 		usuarios.sort(Comparator.comparingInt(
