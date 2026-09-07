@@ -1,21 +1,13 @@
 import br.com.suntentgame.model.*;
-//importar classes
-
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //criando Scanner
         Scanner scanner = new Scanner(System.in);
 
-        //criando plataforma
         Plataforma plataforma = new Plataforma();
-
-         //criando bot de validação
         BotValidacao bot = new BotValidacao();
-
-        //criando ranking
         Ranking ranking = new Ranking(plataforma.getUsuarios());
 
         int resposta = 0;
